@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "api" middleware group. Make something great!
 |
 */
-Route::apiResource("tasks", TaskController::class)->only("index", "show", "store", "update");
+Route::apiResource("tasks", TaskController::class);
