@@ -22,8 +22,9 @@ class UpdateTaskRequest extends FormRequest
     public function rules(): array
     {
         return [
-            "is_done" => "sometimes",
-            "file_name" => "sometimes"
+            "file_name" => "",
+            "is_done" => "",
+            "name" => ""
         ];
     }
 }
